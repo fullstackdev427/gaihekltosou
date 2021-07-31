@@ -1,0 +1,34 @@
+#header {
+  background-color: $primary-color;
+  min-height: 40px;
+
+  .bg-topbar{
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+
+    .topbar-center {
+      text-align: center;
+    }
+
+    .topbar-right {
+      position: absolute;
+      right: 0.5rem;
+    }
+  }
+}
+
+#header-toggle-menu {
+  background-color: $secondary-color;
+
+  .nav-item {
+    border-bottom: 1px solid gray;
+    text-align: right;
+  }
+
+  .nav-link {
+    color: $primary-color;
+    display: block;
+    padding: .5rem 1rem;
+  }
+}
